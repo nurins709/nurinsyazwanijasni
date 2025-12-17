@@ -1047,8 +1047,8 @@ sup {
 
 /* MUSIC BACKGROUND */
 .music-box {
-  border:2px solid #ff99b99;
-  background-color: #f7a9be;
+  border:2px solid #ff99b9;
+  background-color: #AC9078;
   padding: 10px 20px;
   border-radius: 15px;
   width: 80%;
@@ -1142,6 +1142,7 @@ sup {
     color: #CABA9C;
     font-size: 14px;
 }
+
 
 
 
