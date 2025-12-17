@@ -6,11 +6,6 @@ body {
     padding: 0;
     background-color: #C4A484;
     font-size:15;
-    background-image: url("background.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
     } 
 
 /*ITALIC TAG*/
@@ -220,7 +215,22 @@ sup {
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
 }
 
+/* IMAGE BACKGROUND*/
 
+.home-background::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url("background.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+  z-index: -1;
+}
 
 
 /* SOCIAL MEDIA HOME PAGE */
@@ -1132,4 +1142,5 @@ sup {
     color: #CABA9C;
     font-size: 14px;
 }
+
 
